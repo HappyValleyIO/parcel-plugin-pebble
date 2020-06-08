@@ -1,0 +1,14 @@
+{
+  "name": "@happyvalleyio/parcel-plugin-pebble",
+  "version": "0.1.0",
+  "description": "A parcel bundler plugin for working with pebble template files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Happy Valley IO <support@happyvalley.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
