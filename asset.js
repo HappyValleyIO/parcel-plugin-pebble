@@ -19,13 +19,10 @@ class SkipPebbleTemplateProcessing extends HTMLAsset {
     addDependency (name, opts) {
         if (!shouldIgnore(opts.resolved)) {
             return super.addDependency(name, opts)
-        } else {
-            console.info(`Ignoring pebble dependency: ${name}`)
         }
     }
 
     processSingleDependency (p, opts) {
-        console.warn(`Processing pebble dependency ${p}`)
         if (shouldIgnore(p)) {
             return p
         } else {
