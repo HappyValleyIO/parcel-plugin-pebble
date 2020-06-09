@@ -1,6 +1,6 @@
 {
   "name": "@happyvalleyio/parcel-plugin-pebble",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A parcel bundler plugin for working with pebble template files",
   "main": "index.js",
   "scripts": {
